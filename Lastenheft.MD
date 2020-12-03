@@ -43,25 +43,22 @@ Da die virtuelle Serverinfrastruktur der PDC AG ausgelastet ist, werde ich mich 
 Die PowerDataCenter AG hat ein Problem: Ihre VM-Infrastruktur, welche sie für Kunden zur Verfügung stellt, stösst langsam an ihre Grenzen. Die Ressourcen werden knapper. Ein Kunde möchte jetzt, dank einer sehr erfolgreichen Applikation, einen Docker Cluster als Service anfordern. Docker ist eine Virtualisierungsmöglichkeit, basierend auf einem Containersystem. Docker Container sind sehr effizient, sie benötigen nur einen Bruchteil der Ressourcen die eine VM mit den gleichen Services benötigen würde. 
 Da jetzt aber die Mitarbeiter der PDC AG noch nie mit Docker gearbeitet haben, müssen sie zuerst einen Test-Cluster erstellen, um darauf dann anschliessend den Cluster als Service liefern zu können. Meine Aufgabe besteht jetzt darin, diesen Cluster entsprechend den Vorgaben aufzusetzen und anschliessend Demonstrationsartig der GL und den anderen Mitarbeitern zu präsentieren. Damit andere Mitarbeiter sich auf der Umgebung nicht verlaufen, werde ich anschliessend noch ein Knowledge-Wiki inklusive einer kleinen Schritt für Schritt Anleitung erstellen und veröffentlichen.
 
-Alle notwendigen Dokumente werden in diesem GitHub Repository gespeichert und laufend aktualisiert.
+Alle notwendigen Dokumente (Lastenheft / Angebot) werden in diesem GitHub Repository gespeichert und laufend aktualisiert.
 
 ## Ist-Zustand
 Aktuell existiert nur die VM-Infrastruktur der PDC AG. In der PDC AG wurde noch nie mit Docker gearbeitet, somit existiert Docker bisher in keiner Form bei der PDC AG. Die VM-Infrastruktur, welche für den Kunden zur Verfügung gestellt wurde, ist langsam ausgelastet. 
 
-Auf meinem persönlichen Arbeitsgerät ist Docker installiert. Ebenfalls arbeite ich hauptsächlich mit Git, damit ich eine ordentliche Struktur in meinen Dokumenten / Arbeiten habe und damit die Arbeiten stets aktuell gehalten werden können. Ebenfalls sind noch keine VMs vorinstalliert worden. Zur Erstellung von VMs verwende ich Oracle Virtualbox.
+Der Auftragnehmer hat bereits Docker auf seinem Arbeitsgerät installiert. Er arbeitet hauptsächlich mit Git, um eine ordentliche Struktur ohne Chaos sicherzustellen. Bisher wurden keine VMs oder Container vorinstalliert. Der Auftragnehmer verwendet Oracle Virtualbox als Virtualisierunglösung. 
 
 ## Rahmenbedingungen
-Die Geschäftsleitung der Firma PDC AG verlangt, dass ihre Serverinfrastruktur zu Ende des Projektes mit einem Docker Swarm Cluster ergänzt werden kann. Dazu erhalte ich Zeit bis zum **19.01.2021**.
+Die Geschäftsleitung der Firma PDC AG verlangt, dass ihre Serverinfrastruktur zu Ende des Projektes mit einem Docker Swarm Cluster ergänzt werden kann.
 
 ## Ziele
 Bis zum 19.01.2021 sind folgende Ziele zu erfüllen:
 
 - Eine Funktionierende Testumgebung für Docker
 - Mehrere Container müssen parallel miteinander kommunizieren können
-- Ein Knowledge-Wiki inklusive einer kleinen Anleitung wird erstellt
 - Der Service wird anschliessend präsentiert und seine Funktionen demonstriert
-
-Bei Nichteinhaltung eines Ziels, wird eine ausführliche Erklärung zur Situation erstellt und präsentiert.
 
 ## Anforderungen
 
@@ -77,4 +74,13 @@ Der Service muss die folgenden Anforderungen erfüllen:
 - 24/7 Support falls Docker Cluster abstürzt etc. inkl. Pikett bei Notfällen
 - Service muss unterbruchsfrei laufen
 
+## Fragenkatalog
+
+Wieso wird zur Umsetzung Docker verwendet?
+
+> Docker ist im Vergleich zu bisher herkömmlichen Hypervisor-Virtualisierungsmethoden noch ressourcenschonender.
+
+Was ist der Unterschied zu Hypervisor-Virtualisierung und dem Docker-Container System?
+
+> Hypervisor-Virtualisierungsmethoden verwenden meistens ISO oder OVA Files zur Erstellung. Docker hingegen verwendet ein Dockerfile. Ein Dockerfile ist eine Konfigurationsdatei mit allen nötigen Informationen zur Erstellung eines Containers. 
 
