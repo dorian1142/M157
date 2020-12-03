@@ -5,10 +5,12 @@
 [Einleitung](#Einleitung)  
 [Lösungsbeschrieb](#Lösungsbeschrieb)  
 [Mengengerüst](#Mengengerüst)  
+[Planung](#Planung)  
 
 <a name="Einleitung"/>
 <a name="Lösungsbeschrieb"/>
 <a name="Mengengerüst"/>
+<a name="Planung"/>
 
 ## Einleitung
 
@@ -57,4 +59,26 @@ Zur Umsetzung der Lösung durch den Auftragnehmer werden folgende Hardware und S
 
 
 Da der Auftragnehmer bereits über die benötigte Hardware verfügt, muss diese nicht mehr bezahlt werden und ist ebenfalls kostenlos.
+
+## Planung
+
+- **03.12.2020**
+Verfassen des Angebots
+
+- **10.12.2020**
+Verfassen des Angebots, Beginn der Implementierung des Docker Clusters
+> Meilenstein 1: Angebot fertig verfasst und überprüft
+
+- **17.12.2020**
+Implementierung des Docker Clusters
+
+- **07.01.2021**
+Implementierung des Docker Clusters
+> Meilenstein 2: Implementation des Clusters abgeschlossen und funktionstauglich
+
+- **14.01.2020**
+Präsentation und Demonstration des Endprodukts
+> Meilenstein 3: Präsentation und Abschluss des Projekts
+
+Zwischen dem 17.12.2020 und dem 07.01.2021 sind Weihnachtsferien. Deshalb wird währenddessen auch nicht gearbeitet.
 
