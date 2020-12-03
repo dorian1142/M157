@@ -6,11 +6,13 @@
 [Lösungsbeschrieb](#Lösungsbeschrieb)  
 [Mengengerüst](#Mengengerüst)  
 [Planung](#Planung)  
+[Risikoanalyse](#Risikoanalyse)  
 
 <a name="Einleitung"/>
 <a name="Lösungsbeschrieb"/>
 <a name="Mengengerüst"/>
 <a name="Planung"/>
+<a name="Risikoanalyse"/>
 
 ## Einleitung
 
@@ -82,3 +84,4 @@ Präsentation und Demonstration des Endprodukts
 
 Zwischen dem 17.12.2020 und dem 07.01.2021 sind Weihnachtsferien. Deshalb wird währenddessen auch nicht gearbeitet.
 
+## Risikoanalyse
