@@ -49,10 +49,12 @@ Zur Umsetzung der Lösung durch den Auftragnehmer werden folgende Hardware und S
 
 | Produkt | Kosten |
 | ------------- | ------------- |
-| HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | 750.-  |
+| HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | Kostenlos |
 | Docker  | Kostenlos |  
 | Oracle Virtualbox  | Kostenlos  |
 | GitHub (zur Dokumentablage)  | Kostenlos |
+| Aufwand  | 50.- CHF / Stunde |
 
 
+Da der Auftragnehmer bereits über die benötigte Hardware verfügt, muss diese nicht mehr bezahlt werden und ist ebenfalls kostenlos.
 
