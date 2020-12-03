@@ -8,6 +8,8 @@
 [Ist-Zustand](#Ist-Zustand)  
 [Rahmenbedingungen](#Rahmenbedingungen)  
 [Ziele](#Ziele)  
+[Anforderungen](#Anforderungen)  
+ 
    
 <a name="Administratives"/>
 <a name="Ausgangslage"/>
@@ -15,6 +17,8 @@
 <a name="Ist-Zustand"/>
 <a name="Rahmenbedingungen"/>
 <a name="Ziele"/>
+<a name="Anforderungen"/>
+
 
 
 ## Administratives
@@ -47,25 +51,30 @@ Aktuell existiert nur die VM-Infrastruktur der PDC AG. In der PDC AG wurde noch 
 Auf meinem persönlichen Arbeitsgerät ist Docker installiert. Ebenfalls arbeite ich hauptsächlich mit Git, damit ich eine ordentliche Struktur in meinen Dokumenten / Arbeiten habe und damit die Arbeiten stets aktuell gehalten werden können. Ebenfalls sind noch keine VMs vorinstalliert worden. Zur Erstellung von VMs verwende ich Oracle Virtualbox.
 
 ## Rahmenbedingungen
-Die Geschäftsleitung der Firma PDC AG verlangt, dass:
-
-- Funktionierender Docker Container
-- Eine Docker-Cluster Testumgebung
-- Eine funktionierende Demoanwendung
-- Ein Knowledge-Wiki
-- Eine Anleitung zur Erstellung des Clusters
-- Eine Präsentation des Endprodukts inkl. Demonstration
-
-erstellt wird. Dazu gibt mir die Firma Zeit bis zum **19.01.2021**.
+Die Geschäftsleitung der Firma PDC AG verlangt, dass ihre Serverinfrastruktur zu Ende des Projektes mit einem Docker Swarm Cluster ergänzt werden kann. Dazu erhalte ich Zeit bis zum **19.01.2021**.
 
 ## Ziele
 Bis zum 19.01.2021 sind folgende Ziele zu erfüllen:
 
+- Eine Funktionierende Testumgebung für Docker
+- Mehrere Container müssen parallel miteinander kommunizieren können
+- Ein Knowledge-Wiki inklusive einer kleinen Anleitung wird erstellt
+- Der Service wird anschliessend präsentiert und seine Funktionen demonstriert
 
 Bei Nichteinhaltung eines Ziels, wird eine ausführliche Erklärung zur Situation erstellt und präsentiert.
 
-## Funktionale Anforderungen
+## Anforderungen
+
+### Funktionale Anforderungen
 Der Service muss die folgenden Anforderungen erfüllen:
 
+- Ein Docker Cluster mit mehreren Docker Containern muss laufen
+- Eine Demoandwendung läuft einwandfrei auf einem der Container
+- Die Container können von einem Master gesteuert werden
+
+### Nichtfunktionale Anforderungen
+
+- 24/7 Support falls Docker Cluster abstürzt etc. inkl. Pikett bei Notfällen
+- Service muss unterbruchsfrei laufen
 
 
