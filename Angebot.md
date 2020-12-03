@@ -23,7 +23,7 @@
 
 ### Problemstellung
 
-> Die PowerDataCenter AG ist bereits Kunde des Auftragnehmers und mietet bereits eine Virtuelle Infrastruktur. Diese gelangt langsam an ihre Kapazitätsgrenzen. Nun möchte die PDC AG ihre Ressourcen auf eine andere Weise vergrössern. Die PDC AG möchte mit Docker weiterarbeiten, da Docker ressourcenschonender als Hypervisor-Infrastrukturen laufen kann und einfacher zu managen ist.
+Die PowerDataCenter AG ist bereits Kunde des Auftragnehmers und mietet bereits eine Virtuelle Infrastruktur. Diese gelangt langsam an ihre Kapazitätsgrenzen. Nun möchte die PDC AG ihre Ressourcen auf eine andere Weise vergrössern. Die PDC AG möchte mit Docker weiterarbeiten, da Docker ressourcenschonender als Hypervisor-Infrastrukturen laufen kann und einfacher zu managen ist.
 
 ## Lösungsbeschrieb
 
