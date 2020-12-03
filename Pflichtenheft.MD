@@ -1,4 +1,4 @@
-# Pflichtenheft Docker Swarm as a Service M157
+# Lastenheft Docker Swarm as a Service M157
 
 ## Inhaltsverzeichnis
 
