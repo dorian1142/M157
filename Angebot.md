@@ -85,3 +85,11 @@ Präsentation und Demonstration des Endprodukts
 Zwischen dem 17.12.2020 und dem 07.01.2021 sind Weihnachtsferien. Deshalb wird währenddessen auch nicht gearbeitet.
 
 ## Risikoanalyse
+Zu jedem Projekt gehören auch Risiken. Allfällige Risiken des Docker Swarm Services werden hier aufgelistet.
+
+- R1: Ausfall eines Docker Containers
+- R2: Ausfall des gesamten Clusters
+- R3: Ausfall der Hardware
+- R4: Krankheit des Auftragnehmers
+- R5: Konkurs des Arbeitgebers
+
