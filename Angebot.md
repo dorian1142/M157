@@ -47,13 +47,13 @@ Der Auftragnehmer Dorian Jungi kümmert sich um die Lösungsmethode. Die Anforde
 
 Zur Umsetzung der Lösung durch den Auftragnehmer werden folgende Hardware und Software verwendet:
 
-| Produkt | Kosten |
-| ------------- | ------------- |
-| HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | Kostenlos |
-| Docker  | Kostenlos |  
-| Oracle Virtualbox  | Kostenlos  |
-| GitHub (zur Dokumentablage)  | Kostenlos |
-| Aufwand  | 50.- CHF / Stunde |
+| Stückzahl | Produkt | Kosten |
+| ------------- | ------------- | ------------- |
+| 1x | HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | Kostenlos |
+| 1x | Docker Software | Kostenlos |  
+| 1x | Oracle Virtualbox Software | Kostenlos  |
+| 1x | GitHub (zur Dokumentablage)  | Kostenlos |
+| 16 Stunden | Aufwand  | 50.- CHF / Stunde |
 
 
 Da der Auftragnehmer bereits über die benötigte Hardware verfügt, muss diese nicht mehr bezahlt werden und ist ebenfalls kostenlos.
