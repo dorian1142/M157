@@ -102,6 +102,23 @@ Zu jedem Projekt gehören auch Risiken. Allfällige Risiken des Docker Swarm Ser
 ## Rahmenbedingungen
 Damit keine Services vergessen gehen und damit keine unnötigen zusätzlichen Services angeboten werden, werden hier die Rahmenbedingungen notiert:
 
+- Testcluster Docker Swarm bestehend aus 3 Containern
+- Demoanwendung auf einem der Container
+- Garantie bei allfälligem Ausfall des Services
+- Support für Infrastruktur / geregelt via SLA
+
+Nicht beinhaltet ist im Service:
+
+- Getränke / Essen
+- Anreise für geschäftliche Zwecke
+- Hotelübernachtungen
+
 ## Bauseitige-Anforderungen
+Hier werden die Anforderungen aufgelistet, welche von der Seite des Auftraggebers erfüllt sein müssen:
+
+- Arbeitsgerät wird zur Verfügung gestellt
+- Zeitsaldo für Umsetzung festgelegt
+- Funktionierendes Netzwerk
+- Zielinfrastruktur bereit
 
 
