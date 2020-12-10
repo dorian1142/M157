@@ -78,13 +78,8 @@ Der Service muss die folgenden Anforderungen erfüllen:
 
 Wieso wird zur Umsetzung Docker verwendet?
 
-> Docker ist im Vergleich zu bisher herkömmlichen Hypervisor-Virtualisierungsmethoden noch ressourcenschonender.
-
 Was ist der Unterschied zu Hypervisor-Virtualisierung und dem Docker-Container System?
-
-> Hypervisor-Virtualisierungsmethoden verwenden zur Erstellung meistens ISO oder OVA Files. Docker hingegen verwendet ein Dockerfile. Ein Dockerfile ist eine Konfigurationsdatei mit allen nötigen Informationen zur Erstellung eines Containers (wie bspw. CPU, RAM, und OS).
 
 Gibt es vergleichbare Alternativen zu Docker?
 
-> Ja diese gibt es. Ein Beispiel wäre Kubernetes, es basiert auf dem gleichen Prinzip. Es existieren auch andere ähnliche Technologien wie z.B. LXD, runC oder LXC.
 
