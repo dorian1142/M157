@@ -7,12 +7,16 @@
 [Mengengerüst](#Mengengerüst)  
 [Planung](#Planung)  
 [Risikoanalyse](#Risikoanalyse)  
+[Rahmenbedingungen](#Rahmenbedingungen)  
+[Bauseitige-Anforderungen](#Bauseitige-Anforderungen)  
 
 <a name="Einleitung"/>
 <a name="Lösungsbeschrieb"/>
 <a name="Mengengerüst"/>
 <a name="Planung"/>
 <a name="Risikoanalyse"/>
+<a name="Rahmenbedingungen"/>
+<a name="Bauseitige-Anforderungen"/>
 
 ## Einleitung
 
@@ -94,4 +98,10 @@ Zu jedem Projekt gehören auch Risiken. Allfällige Risiken des Docker Swarm Ser
 - R5: Konkurs des Arbeitgebers
 
 ![pic not found](https://github.com/dorian1142/M157/blob/main/RIsikoanalyse.PNG)
+
+## Rahmenbedingungen
+Damit keine Services vergessen gehen und damit keine unnötigen zusätzlichen Services angeboten werden, werden hier die Rahmenbedingungen notiert:
+
+## Bauseitige-Anforderungen
+
 
