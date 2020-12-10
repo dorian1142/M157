@@ -93,3 +93,5 @@ Zu jedem Projekt gehören auch Risiken. Allfällige Risiken des Docker Swarm Ser
 - R4: Krankheit des Auftragnehmers
 - R5: Konkurs des Arbeitgebers
 
+![pic not found](https://github.com/dorian1142/M157/blob/main/RIsikoanalyse.PNG)
+
