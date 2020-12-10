@@ -123,5 +123,16 @@ Hier werden die Anforderungen aufgelistet, welche von der Seite des Auftraggeber
 - Funktionierendes Netzwerk
 - Zielinfrastruktur bereit
 
-## Antwortkatalog   
+## Antwortkatalog
+In diesem Abschnitt werden die im Lastenheft notierten Fragen beantwortet
+
+Wieso wird zur Umsetzung Docker verwendet?
+> Docker bietet im Vergleich zu sehr vielen anderen Technologien die Möglichkeit, auf einer Infrastruktur möglichst wenig Kapazitäten auszulasten. Somit können die Kapazitäten effizienter genutzt werden und es werden weniger Ressourcen für die Management Infrastruktur benötigt.
+
+Was ist der Unterschied zu Hypervisor-Virtualisierung und dem Docker-Container System?
+> Eine normale Hypervisor Lösung verwendet zur Virtualisierung eine aufwendigere Management Infrastruktur welche mehr Ressourcen benötigt. Docker Container hingegen sind sehr schmal gebaut und nur auf das nötigste reduziert. Stellen Sie sich Docker Container wie ein ZIP File vor, während ein Hypervisor eine einfache Ordnerstruktur bietet.
+
+Gibt es vergleichbare Alternativen zu Docker?
+> Ja es gibt mehrere verschiedene sehr ähnliche Alternativen zu Docker. Beispiele wären: Kubernetes, Core OS, LXC Linux Containers, OpenVZ etc. Es existieren etliche Alternativen. Docker hat sich mit der innovativen Container Technologie am meisten durchsetzen können.
+
 
