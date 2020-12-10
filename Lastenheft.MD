@@ -58,7 +58,7 @@ Bis zum 19.01.2021 sind folgende Ziele zu erfüllen:
 
 - Eine Funktionierende Testumgebung für Docker
 - Mehrere Container müssen parallel miteinander kommunizieren können
-- Der Service wird anschliessend präsentiert und seine Funktionen demonstriert
+- Präsentation der Testumgebung
 
 ## Anforderungen
 
@@ -72,7 +72,7 @@ Der Service muss die folgenden Anforderungen erfüllen:
 ### Nichtfunktionale Anforderungen
 
 - 24/7 Support falls Docker Cluster abstürzt etc. inkl. Pikett bei Notfällen
-- Service muss unterbruchsfrei laufen
+- Service hat eine Uptime von 99.98%
 
 ## Fragenkatalog
 
@@ -81,5 +81,9 @@ Wieso wird zur Umsetzung Docker verwendet?
 Was ist der Unterschied zu Hypervisor-Virtualisierung und dem Docker-Container System?
 
 Gibt es vergleichbare Alternativen zu Docker?
+
+Welche Abteilung ist am besten für die Umsetung geeignet?
+
+
 
 

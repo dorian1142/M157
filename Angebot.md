@@ -50,7 +50,7 @@ Der Auftragnehmer Dorian Jungi kümmert sich um die Lösungsmethode. Die Anforde
 
 - 24/7 Support falls Docker Cluster abstürzt etc. inkl. Pikett bei Notfällen
 > Der Auftraggeber hat bei einem Notfall garantierten Support. Der Support ist jederzeit erreichbar via Telefon. Die Telefonnummer ist dem Auftraggeber bekannt.
-- Service muss unterbruchsfrei laufen
+- Service weist eine Verfügbarkeit von 99.98% auf
 > Der Cluster wird auf einer Umgebung aufgesetzt, welche rund um die Uhr verfügbar ist. 
 
 ## Mengengerüst
@@ -59,11 +59,11 @@ Zur Umsetzung der Lösung durch den Auftragnehmer werden folgende Hardware und S
 
 | Stückzahl | Produkt | Kosten |
 | ------------- | ------------- | ------------- |
-| 1x | HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | Kostenlos |
+| 1x | HP Elitebook 840 G3 (16GB RAM, 2 Core CPU) | Bereits vorhanden |
 | 1x | Docker Software | Kostenlos |  
 | 1x | Oracle Virtualbox Software | Kostenlos  |
 | 1x | GitHub (zur Dokumentablage)  | Kostenlos |
-| 16 Stunden | Aufwand  | 50.- CHF / Stunde |
+| 16 Stunden | Aufwand  | 100.- CHF / Stunde |
 
 
 Da der Auftragnehmer bereits über die benötigte Hardware verfügt, muss diese nicht mehr bezahlt werden und ist ebenfalls kostenlos.
@@ -104,10 +104,9 @@ Zu jedem Projekt gehören auch Risiken. Allfällige Risiken des Docker Swarm Ser
 ## Rahmenbedingungen
 Damit keine Services vergessen gehen und damit keine unnötigen zusätzlichen Services angeboten werden, werden hier die Rahmenbedingungen notiert:
 
-- Testcluster Docker Swarm bestehend aus 3 Containern
-- Demoanwendung auf einem der Container
-- Garantie bei allfälligem Ausfall des Services
-- Support für Infrastruktur / geregelt via SLA
+- Bestehende Grundinfrastruktur
+- Büro und Arbeitsgerät stehen zur Verfügung
+- Projekt muss am 14.01.2021 fertiggestellt sein
 
 Nicht beinhaltet ist im Service:
 
@@ -116,12 +115,13 @@ Nicht beinhaltet ist im Service:
 - Hotelübernachtungen
 
 ## Bauseitige-Anforderungen
+Auftragnehmer an Auftraggeber
 Hier werden die Anforderungen aufgelistet, welche von der Seite des Auftraggebers erfüllt sein müssen:
 
 - Arbeitsgerät wird zur Verfügung gestellt
-- Zeitsaldo für Umsetzung festgelegt
-- Funktionierendes Netzwerk
+- Netzwerk mit Uplink von mind. 100Mbit/s
 - Zielinfrastruktur bereit
+
 
 ## Antwortkatalog
 In diesem Abschnitt werden die im Lastenheft notierten Fragen beantwortet
@@ -134,5 +134,9 @@ Was ist der Unterschied zu Hypervisor-Virtualisierung und dem Docker-Container S
 
 Gibt es vergleichbare Alternativen zu Docker?
 > Ja es gibt mehrere verschiedene sehr ähnliche Alternativen zu Docker. Beispiele wären: Kubernetes, Core OS, LXC Linux Containers, OpenVZ etc. Es existieren etliche Alternativen. Docker hat sich mit der innovativen Container Technologie am meisten durchsetzen können.
+
+Welche Abteilung ist am besten für die Umsetung geeignet?
+> Das System Engineering der PDC AG eignet sich am besten für die Umsetzung des Projekts. Unter Leitung von Dorian Jungi ist sichergestellt, dass sich das Projekt nicht nur technisch, sondern auch menschlich in besten Händen befindet. 
+
 
 
