@@ -21,6 +21,7 @@
 <a name="Antwortkatalog"/>
 
 ## Einleitung
+Dieses Dokument lehnt sich an das bereits bestehende Lastenheft.
 
 | Input  | Output |
 | ------------- | ------------- |
