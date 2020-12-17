@@ -41,9 +41,9 @@ Da die virtuelle Serverinfrastruktur der PDC AG ausgelastet ist, werde ich mich 
 
 ## Einleitung
 Die PowerDataCenter AG hat ein Problem: Ihre VM-Infrastruktur, welche sie für Kunden zur Verfügung stellt, stösst langsam an ihre Grenzen. Die Ressourcen werden knapper. Ein Kunde möchte jetzt, dank einer sehr erfolgreichen Applikation, einen Docker Cluster als Service anfordern. Docker ist eine Virtualisierungsmöglichkeit, basierend auf einem Containersystem. Docker Container sind sehr effizient, sie benötigen nur einen Bruchteil der Ressourcen die eine VM mit den gleichen Services benötigen würde. 
-Da jetzt aber die Mitarbeiter der PDC AG noch nie mit Docker gearbeitet haben, müssen sie zuerst einen Test-Cluster erstellen, um darauf dann anschliessend den Cluster als Service liefern zu können. Meine Aufgabe besteht jetzt darin, diesen Cluster entsprechend den Vorgaben aufzusetzen und anschliessend Demonstrationsartig der GL und den anderen Mitarbeitern zu präsentieren. Damit andere Mitarbeiter sich auf der Umgebung nicht verlaufen, werde ich anschliessend noch ein Knowledge-Wiki inklusive einer kleinen Schritt für Schritt Anleitung erstellen und veröffentlichen.
+Da jetzt aber die Mitarbeiter der PDC AG noch nie mit Docker gearbeitet haben, müssen sie zuerst einen Test-Cluster erstellen, um darauf dann anschliessend den Cluster als Service liefern zu können. Die Aufgabe besteht jetzt darin, diesen Cluster entsprechend den Vorgaben aufzusetzen und anschliessend Demonstrationsartig der GL und den anderen Mitarbeitern zu präsentieren. Damit andere Mitarbeiter sich auf der Umgebung nicht verlaufen, wird anschliessend noch ein Knowledge-Wiki inklusive einer kleinen Schritt für Schritt Anleitung erstellt und veröffentlicht.
 
-Alle notwendigen Dokumente (Lastenheft / Angebot) werden in diesem GitHub Repository gespeichert und laufend aktualisiert.
+Alle notwendigen Dokumente (Lastenheft / Angebot) werden in diesem GitHub Repository gespeichert und laufend aktualisiert. 
 
 ## Ist-Zustand
 Aktuell existiert nur die VM-Infrastruktur der PDC AG. In der PDC AG wurde noch nie mit Docker gearbeitet, somit existiert Docker bisher in keiner Form bei der PDC AG. Die VM-Infrastruktur, welche für den Kunden zur Verfügung gestellt wurde, ist langsam ausgelastet. 
@@ -56,7 +56,7 @@ Die Geschäftsleitung der Firma PDC AG verlangt, dass ihre Serverinfrastruktur z
 ## Ziele
 Bis zum 19.01.2021 sind folgende Ziele zu erfüllen:
 
-- Eine Funktionierende Testumgebung für Docker
+- Eine funktionierende Docker Cluster Umgebung
 - Mehrere Container müssen parallel miteinander kommunizieren können
 - Präsentation der Testumgebung
 
