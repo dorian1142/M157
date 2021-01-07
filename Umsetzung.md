@@ -14,10 +14,27 @@ In diesem Dokument wird die Umsetzung sowie die Planung, Informationsbeschaffung
 
 ## IPERKA
 
-## Informieren
-## Planen
-## Entscheiden
-## Realisieren
-## Kontrollieren
-## Auswerten
+### Informieren
+Als erstes muss ich mich ausführlich über die Funktionsweise und den Aufbau von Docker Swarm informieren, da ich noch nie damit gearbeitet habe. Ich habe mich auf der [offiziellen Docker Webseite](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/) darüber informiert. Ebenfalls werde ich mich an der vorgegebenen Anleitung orientieren, um jede mögliche Fehlerquelle ausschliessen zu können. Ein Mitarbeiter meines Betriebs hat mich ebenfalls auf [Digitalocean](https://www.digitalocean.com/community/tutorials/how-to-create-a-cluster-of-docker-containers-with-docker-swarm-and-digitalocean-on-ubuntu-16-04) aufmerksam gemacht. Ich habe diese Webseite ebenfalls zur Informationsbeschaffung verwendet.
+
+### Planen
+Die Planung der Umsetzung ist wie folgt strukturiert:
+- 07.01.2021: Informationsbeschaffung, Planung, Entscheidung und Beginn der Realisation
+- 14.01.2021: Realisation (Implementation)
+- 21.01.2021: Kontrolle, Auswertung und Abgabe des Projekts
+  
+### Entscheiden
+Als nächstes muss ich mich für eine Vorgehensweise und Technologie entscheiden. Ich habe die Möglichkeit, zwischen 3 verschiedenen Betriebssystemen zu arbeiten:
+
+- Windows
+- Linux
+- MacOS
+
+Ich habe mich für das Windwos OS entschieden, um alle Modulbedingten Dokumente und Technologien auf einem zentralen Gerät speichern und verwalten zu können.
+
+Ebenfalls habe ich mich für die [offizielle Docker Webseite](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/) zur Umsetzungshilfe entschieden, da diese ausführlich erklärt wie vorgegangen werden muss. Da mein Zeitbudget eher knapp ist, darf ich mir keine groben Fehler erlauben.
+
+### Realisieren
+### Kontrollieren
+### Auswerten
 
