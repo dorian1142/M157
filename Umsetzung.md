@@ -35,7 +35,9 @@ Ich habe mich für das Windwos OS entschieden, um alle Modulbedingten Dokumente 
 Ebenfalls habe ich mich für die [offizielle Docker Webseite](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/) zur Umsetzungshilfe entschieden, da diese ausführlich erklärt wie vorgegangen werden muss. Da mein Zeitbudget eher knapp ist, darf ich mir keine groben Fehler erlauben.
 
 ### Realisieren
-Um den Docker Swarm erstellen zu können, benötige ich zuerst eine Manager VM. Diese habe ich mittels Oracle Virtualbox erstellt und 'manager' genannt. Auf der VM läuft eine debian version, welche ich noch auf meiner Festplatte gefunden habe. Die Maschine hat etwa 1GB RAM und 15GB HD Speicher. Das OS läuft ohne GUI, da ich sowieso nur via SSH darauf arbeiten werde und eine GUI Installation viel zu lange dauern würde. Auf dem Manager Node wurde ein User namens 'manageruser' erstellt. Anschliessend habe ich noch 2 andere Debian Maschinen erstellt namens 'host1' und 'host2'. Diese werden die 'worker' des Swarms bilden.
+Leider hat nichts so funktioniert wie ich wollte. Ich habe etwa 4 Stunden versucht einen einzigen Container zum laufen zu bringen und diesen zum manager der 3 Testhosts zu machen, was leider immer fehlschlug. Ich habe es mit debian, ubuntu und ubuntu server versucht, mit keinem der Betriebssysteme hat es funktioniert. Ich habe ebenfalls mit Hyper-V und mit Oracle Virtualbox versucht, beide haben nicht funktioniert. Ich habe lediglich Fehlermeldungen erhalten von wegen die Files seien korrupt. Ich habe etwa 5 mal versucht neue Images herunterzuladen und nochmal die Maschine aufzusetzen, was immer noch nicht funktionierte. Nach einer Weile gab ich auf und widmete mich einem einfacheren Thema da mir meine psychische Gesundheit lieber ist als eine Schulnote.
+ 
 ### Kontrollieren
+Da ich meine Nerven gerne noch eine Weile behalten möchte und nicht nochmal ausrasten sollte, habe ich mich dazu entschlossen, das Projekt abzubrechen und vielleicht ein anderes Mal in Begleitung einer Fachperson zu versuchen. Es ist schade, dass es überhaupt nicht funktioniert hat, obwohl ich es auf so viele verschiedenen Arten versucht habe. 
 ### Auswerten
 
