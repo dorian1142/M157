@@ -38,4 +38,25 @@ Wie man auf dem Bild erkennen kann, hat es funktioniert. Der nächste Schritt be
 
 ## Testkonzept
 
-Als letzten Teil des Projekts, wurde noch ein Testprotokoll durchgeführt mit einigen Testszenarien.
+Als letzten Teil des Projekts, wurde noch ein Testprotokoll durchgeführt mit einigen Testszenarien. Da ich keine Applikation herunterladen konnte, beschränken sich die Testfälle erheblich.
+
+### Testfall 1
+Erreichbarkeit des Managers für Worker1. Manager ist von Node Worker1 aus anpingbar via ICMP Requests.
+
+- Durchführungsdatum: 27.01.2021
+- Erwartetes Resultat: Worker1 kann Manager problemlos ohne Timeout finden.
+- Tatsächliches Resultat: Worker1 kann Manager anpingen.
+
+
+
+### Testfall 2
+Erreichbarkeit des Managers für Worker2. Manager ist von Node Worker2 aus anpingbar via ICMP Requests.
+
+- Durchführungsdatum: 27.01.2021
+- Erwartetes Resultat: Worker2 kann Manager problemlos ohne Timeout finden.
+- Tatsächliches Resultat: Worker2 kann Manager anpingen.
+
+
+
+
+
