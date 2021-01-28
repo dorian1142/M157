@@ -47,6 +47,7 @@ Erreichbarkeit des Managers für Worker1. Manager ist von Node Worker1 aus anpin
 - Erwartetes Resultat: Worker1 kann Manager problemlos ohne Timeout finden.
 - Tatsächliches Resultat: Worker1 kann Manager anpingen.
 
+![no](https://github.com/dorian1142/M157/blob/main/test1.PNG)
 
 
 ### Testfall 2
@@ -57,6 +58,7 @@ Erreichbarkeit des Managers für Worker2. Manager ist von Node Worker2 aus anpin
 - Tatsächliches Resultat: Worker2 kann Manager anpingen.
 
 
+![no](https://github.com/dorian1142/M157/blob/main/test2.PNG)
 
 
 
