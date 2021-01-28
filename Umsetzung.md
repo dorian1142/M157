@@ -18,9 +18,24 @@ Nachdem ich mich weitgehend informiert habe, habe ich es nach 100 mal versuchen 
 | RAM | 1GB | 1GB | 1GB |
 | Festplatte | 20GB | 20GB | 20GB |
 
+Als erstes musste ich Docker auf allen VMs installieren. Nach dem installieren habe ich den Standard Docker Hello World Befehl ausgeführt. Anschliessend habe ich mit dem Aufsetzen des Swarms begonnen. Um den Swarm zu erstellen, muss man auf dem Node, welchen man als Manager verwenden will, folgenden Befehl eingeben: `docker swarm init --advertise-addr 192.168.10.10`. So war auch schon der manager erstellt. Um mehrere Nodes noch hinzufügen zu können, muss man im worker Node den folgenden Befehl eingeben:
+
+![no](https://github.com/dorian1142/M157/blob/main/swarmtoken.PNG)
+
+Diesen Befehl habe ich auf beiden worker VMs ausgeführt und beide funktionierten einwandfrei:
+
+![no](https://github.com/dorian1142/M157/blob/main/worker1join.PNG)
+
+![no](https://github.com/dorian1142/M157/blob/main/worker2join.PNG)
+
+Als Kontrolle habe ich auf dem manager node noch den Befehl `docker node ls` ausgeführt um zu sehen, ob die beiden workers erkannt wurden.
+
+![no](https://github.com/dorian1142/M157/blob/main/nodes.PNG)
+
+Wie man auf dem Bild erkennen kann, hat es funktioniert. Der nächste Schritt bestand darin, eine Applikation (vorzugsweise Python) auf einen Node zu bringen, was leider nicht funktioniert hat. Ich habe versucht, das Problem zu beheben und habe viel recherchiert, jedoch habe ich keine Lösung gefunden.
 
 ![no](https://github.com/dorian1142/M157/blob/main/fail.PNG)
-![no](https://github.com/dorian1142/M157/blob/main/nodes.PNG)
-![no](https://github.com/dorian1142/M157/blob/main/swarmtoken.PNG)
-![no](https://github.com/dorian1142/M157/blob/main/worker1join.PNG)
-![no](https://github.com/dorian1142/M157/blob/main/worker2join.PNG)
+
+## Testkonzept
+
+Als letzten Teil des Projekts, wurde noch ein Testprotokoll durchgeführt mit einigen Testszenarien.
