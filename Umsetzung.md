@@ -17,3 +17,10 @@ Nachdem ich mich weitgehend informiert habe, habe ich es nach 100 mal versuchen 
 | CPU | 1 CPU | 1 CPU | 1 CPU |
 | RAM | 1GB | 1GB | 1GB |
 | Festplatte | 20GB | 20GB | 20GB |
+
+
+![no](https://github.com/dorian1142/M157/blob/main/fail.PNG)
+![no](https://github.com/dorian1142/M157/blob/main/nodes.PNG)
+![no](https://github.com/dorian1142/M157/blob/main/swarmtoken.PNG)
+![no](https://github.com/dorian1142/M157/blob/main/worker1join.PNG)
+![no](https://github.com/dorian1142/M157/blob/main/worker2join.PNG)
