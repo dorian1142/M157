@@ -60,5 +60,8 @@ Erreichbarkeit des Managers für Worker2. Manager ist von Node Worker2 aus anpin
 
 ![no](https://github.com/dorian1142/M157/blob/main/test2.PNG)
 
+## Vergleich Wissenszuwachs
+Ich bin froh, dass ich am 14. Januar nicht komplett aufgegeben habe, wie ich es an dem Tag vor hatte. Ich habe so viel neues und nützliches gelernt über Docker und den Swarm modus. Schlussendlich hat mir die Arbeit sogar sehr viel Spass gemacht, da der Lerneffekt gigantisch und der AHA-Effekt genauso gross war. Ebenfalls habe ich viel mit Markdown gearbeitet, was auch sehr schön ist, wenn man es erst versteht. Es ist alles sehr komplex in der Welt der Informatik und man muss gewisse Opfer und Disziplin erbringen, damit man auch erfolgreich aus seinen Fehlern lernen kann. Das Modul hat mir sehr viel Spass gemacht. Der einzige Punkt den ich noch verbessern sollte, ist meiner Meinung nach, meine Aufmerksamkeitsschwäche im Schulzimmer in der TBZ. Ich komme im HomeOffice viel besser zurecht und arbeite doppelt so effizient. In der Schule habe ich die Gewohnheit, mich von allem und jedem ablenken zu lassen, weshalb ich oft nur stockend oder teilweise gar nicht an Projekten vorankomme. 
+
 
 
